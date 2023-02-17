@@ -1,0 +1,67 @@
+<template>
+    <div class="q-pa-md items-start q-gutter-md">
+        <div>
+            <div class="text-left text-h4" style="font-weight: bold;">このサイトとは</div>
+            <div class="text-subtitle2">2023/02/18 更新</div>
+        </div>
+        <q-img src="../assets/my_icon.jpg" class="top_img"></q-img>
+        <div class="text-subtitle2 text-right">これは、私が高校2年生のときに、渋谷にて太陽と「一蓮托生の儀」を行った際の貴重な画像だ。(東京国立博物館収蔵)</div>
+        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">はじめに</div>
+        <div>
+            <p style="font-size: 1rem; line-height: 180%;">
+                このサイトを作成したのはポートフォリオ的なものを作りたかったというのが50%、残りの50%は暇つぶしだ。<br>
+                本来、私はやるべきことが常に山積みであり、こんなおままごとに興じている暇は一切ないのだ。<br>
+                しかしながら、人間というのは面白いもので、テスト前で勉強しなければいけない時にいきなり掃除をしだしたり、
+                こうやって海外渡航を直前に控えて忙しいはずのときに、深夜遅くまでつまらない趣味にふけってしまうものだ。
+            </p>
+        </div>
+        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">つぎに</div>
+        <div>
+            <p style="font-size: 1rem; line-height: 180%;">
+                では、これを読んでいる諸君は、私の暇つぶしに付き合っている憐れな被害者なのかと言うと、これは少し私の意図するところとは違う。<br>
+                私は文字通り諸君の時間を奪っているのだから、せめてこのサイトが有意義なものであればと望んでいる。
+                簡単に言えば、ボランティアで諸君らを喜ばせようとしているのだ。<br>
+                今、このサイトを閲覧している画面の向こうの君は、おそらく私の知り合いか、あるいはその知り合いくらいの人であろう。
+                つまりは、私がどういう人であるかを知っていて、そのうえで冷やかしでこのサイトを見に来たといったところであろう。<br>
+                私もなかなかプライドを捨てられない人間で、知り合いが見ているとなれば、それは勿論面白いことを書かざるを得ない。<br>
+                そこで、当然私も色々自分で考えながら記事を書いていく訳だが、このサイトを盛り上げるために是非諸君らにも協力して頂きたい。<br>
+                具体的には、以下のリンク(Google Form)から当サイトで私に語って欲しいことや改善案等を送ってほしい。<br>
+                <br>
+                <a href="https://forms.gle/JeF3vNd6t8aNchKX8" target="_blank">このサイトで語って欲しいことリクエスト</a><br>
+                <a href="https://forms.gle/2fFLgAaUwyGasTHn9" target="_blank">改善案・技術的アドバイス</a><br>
+                <br>
+
+                リクエストについては、頂いたものは一つ一つ私が目を通し、面白いものがあれば取り上げて本サイトに記事として投稿する。<br>
+            </p>
+        </div>
+        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">そのつぎに</div>
+        <div>
+            <p style="font-size: 1rem; line-height: 180%;">
+                そもそも、このサイトはWordPressなどのHP作成ツール、はてなブログやLivedoor、
+                あるいはnoteなどのブログが簡単に作れるサイトなどを用いて作成していない、非常に硬派なブログである。<br>
+                具体的には、このサイトはVue.jsのプロジェクトをViteがローカルでビルドしており、
+                GitHub上にpushしたリモートブランチをGitHub Pagesでデプロイしている。なので、(少なくともこちらとしては)完全サーバレスで、
+                ドメインも無料、サーバー代も無料というわけだ。ただ、正直ドメインは変えたいので、無料でドメインを取得する方法があれば教えて欲しい。<br>
+                さらには、Vue.jsのバージョンは最新のVue3、script set up構文を用いたComposition APIでの記法を採用しており、
+                スクリプト部分はTypeScriptで書いている。つまり、見た目だけはとりあえず超イケイケの仕様なのだ。<br>
+                コードは<a href="https://github.com/hasoseso-Gunnar/gunnar-hp" target="_blank">ここから</a>確認できる。<br>
+                <br>
+                私もWebアプリケーションの開発の歴がまだ浅く、実はブログのようなものをゼロから作るというのは初の試みであり、かなり難航している。<br>
+                操作していて諸君らも気付いたと思うが、色々なところで粗が目立つだろう。
+                今後の運用の中で様々な改善を行う予定なので、しばらく目を瞑って頂きたい。<br>
+                また、もし諸君らの中にVue.jsを用いた開発経験のある者がいれば、先述のフォームから是非アドバイスを欲しい。<br>
+            </p>
+        </div>
+    </div>
+</template>
+<script setup lang="ts">
+
+</script>
+<style scoped>
+.top_img{
+    height: 350px;
+    margin-left: 10px;
+}
+
+
+</style>
