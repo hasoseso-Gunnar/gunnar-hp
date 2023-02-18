@@ -233,13 +233,14 @@
             </div>
         </div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">お借りした画像の出典元</div>
+        <div class="text-subtitle2 text-left">一部URLは表示の関係で省略</div>
         <div class="reference">
             <li style="margin-left: 3%;">https://www.shonenjump.com/j/</li>
             <li style="margin-left: 3%;">https://renote.net/articles/10101</li>
-            <li style="margin-left: 3%;">https://prtimes.jp/main/html/rd/p/000000298.000023394.html</li>
+            <li style="margin-left: 3%;">https://prtimes.jp/</li>
             <li style="margin-left: 3%;">https://charalab.com/21023/</li>
-            <li style="margin-left: 3%;">https://shonenjumpplus.com/magazine/13933686331641411847</li>
-            <li style="margin-left: 3%;">https://dispone.tumblr.com/post/633896371138772992/90s-anime-aesthetic</li>
+            <li style="margin-left: 3%;">https://shonenjumpplus.com/</li>
+            <li style="margin-left: 3%;">https://dispone.tumblr.com/</li>
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
