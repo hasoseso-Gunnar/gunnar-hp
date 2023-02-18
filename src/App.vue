@@ -30,8 +30,8 @@
 
             <!-- footer -->
             <q-footer elevated class="bg-purple">
-              <q-toolbar class="glossy">
-                  <q-toolbar-title></q-toolbar-title>
+              <q-toolbar class="glossy" align="middle">
+                  <q-toolbar-title class="text-subtitle2">© 2022 - 2023. Takumi Gunnar Miura</q-toolbar-title>
               </q-toolbar>
           </q-footer>
         </q-layout>
