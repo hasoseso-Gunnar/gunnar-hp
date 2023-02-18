@@ -233,7 +233,7 @@
             </div>
         </div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">お借りした画像の出典元</div>
-        <div>
+        <div class="reference">
             <li style="margin-left: 3%;">https://www.shonenjump.com/j/</li>
             <li style="margin-left: 3%;">https://renote.net/articles/10101</li>
             <li style="margin-left: 3%;">https://prtimes.jp/main/html/rd/p/000000298.000023394.html</li>
@@ -466,6 +466,9 @@ strong{
         margin-left: 5%;
         margin-bottom: 10px;
     }
+    .reference{
+        max-width: 300px; 
+    }   
 }
 
 
