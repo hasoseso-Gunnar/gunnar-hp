@@ -2,10 +2,10 @@
     <div class="q-pa-md items-start q-gutter-md">
         <div>
             <div class="text-left text-h4" style="font-weight: bold;">ジャンプ主人公と心理的本質主義の考察</div>
-            <div class="text-subtitle2">2023/02/18 更新</div>
+            <div class="text-subtitle2">2023/02/19 更新</div>
         </div>
         <q-img src="../assets/picturesForBlogs/weekly-jump.jpg" class="insert_img"></q-img>
-        <div class="text-subtitle2 text-right">「週刊少年ジャンプ」と検索して最初に出てきた画像。(引用:https://www.shonenjump.com/j/)</div>
+        <div class="text-subtitle2 text-right">「週刊少年ジャンプ」と検索して最初に出てきた画像。</div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">「週刊少年ジャンプ」とは</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
@@ -85,7 +85,7 @@
             <q-img src="../assets/picturesForBlogs/myheroacademia.jpg" class="insert_img"></q-img>
         </div>
         <div class="text-subtitle2 text-right">
-            (引用:https://renote.net/articles/10101, https://prtimes.jp/main/html/rd/p/000000298.000023394.html)
+            どちらの漫画も、主人公がライバル(友)を追いかける形で物語が進行する。
         </div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">1980年代の「血統」</div>
         <div>
@@ -124,7 +124,7 @@
             </p>
         </div>
         <q-img src="../assets/picturesForBlogs/jump_goldenage.jpg" class="insert_img"></q-img>
-        <div class="text-subtitle2 text-right">黄金期と呼ばれるころの週刊少年ジャンプ。この頃はよかったナア。(引用:https://charalab.com/21023/)最近のジャンプ。</div>
+        <div class="text-subtitle2 text-right">黄金期と呼ばれるころの週刊少年ジャンプ。この頃はよかったナア。</div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">2000年代の「偶然」</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
@@ -172,7 +172,7 @@
             </p>
         </div>
         <q-img src="../assets/picturesForBlogs/2020-jump.jpg" class="insert_img"></q-img>
-        <div class="text-subtitle2 text-right">PCから見ている人は画像がガビガビだと思うが調整が面倒くさいので許してほしい。(引用:https://shonenjumpplus.com/magazine/13933686331641411847)</div>
+        <div class="text-subtitle2 text-right">最近のジャンプ。PCから見ている人は画像がガビガビだと思うが調整が面倒くさいので許してほしい。</div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">ないものがほしい</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
@@ -210,7 +210,7 @@
                 <br>
             </p>
             <q-img src="../assets/picturesForBlogs/90s_anime.jpg" class="insert_img"></q-img>
-            <div class="text-subtitle2 text-right">現代は80年代を懐古するような風潮さえある。(引用:https://dispone.tumblr.com/post/633896371138772992/90s-anime-aesthetic)</div>
+            <div class="text-subtitle2 text-right">最近は80年代を懐古するような風潮さえある。</div>
             <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">あとがき</div>
             <div>
                 <p style="font-size: 1rem; line-height: 180%;">
@@ -231,6 +231,14 @@
                     <br>
                 </p>
             </div>
+        </div>
+        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">お借りした画像の出典元</div>
+        <div>
+            <li style="margin-left: 3%;">https://www.shonenjump.com/j/</li>
+            <li style="margin-left: 3%;">https://renote.net/articles/10101, https://prtimes.jp/main/html/rd/p/000000298.000023394.html</li>
+            <li style="margin-left: 3%;">https://charalab.com/21023/</li>
+            <li style="margin-left: 3%;">https://shonenjumpplus.com/magazine/13933686331641411847</li>
+            <li style="margin-left: 3%;">https://dispone.tumblr.com/post/633896371138772992/90s-anime-aesthetic</li>
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">

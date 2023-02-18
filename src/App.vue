@@ -15,7 +15,7 @@
         <!-- header -->
         <q-layout view="lHh lpr lFf"  class="shadow-2 rounded-borders">
             <q-header elevated class="bg-purple">
-            <q-toolbar class="glossy">
+            <q-toolbar>
                 <q-btn flat round dense icon="menu" class="q-mr-sm" @click="open('left')"/>
                 <q-avatar>
                 <img src="./assets/my_icon.jpg">
@@ -29,11 +29,11 @@
               <RouterView />
 
             <!-- footer -->
-            <q-footer elevated class="bg-purple">
+            <!-- <q-footer elevated class="bg-purple">
               <q-toolbar class="glossy" align="middle">
                   <q-toolbar-title class="text-subtitle2">© 2022 - 2023. Takumi Gunnar Miura</q-toolbar-title>
               </q-toolbar>
-          </q-footer>
+          </q-footer> -->
         </q-layout>
     </div>
   </div>
