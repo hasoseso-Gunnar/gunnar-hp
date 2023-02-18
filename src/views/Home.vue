@@ -41,25 +41,26 @@
     <div>
         <p style="font-size: 1rem; line-height: 180%;">
           <br>
-          当サイトは、商用目的での運用を一切行わないことをここに記す。すなわち、アフィリエイト広告を埋め込むことや
+          第一に、当サイトは、商用目的での運用を一切行わないことをここに記す。すなわち、アフィリエイト広告を埋め込むことや
           特定企業から依頼を受けて商品を紹介する、といったことは一切行わない。<br>
           しかしながら、Google Formを通しての記事リクエストなど報酬が発生しない依頼については、この限りではない。<br>
           <br>
-          また、当サイトは<a href="https://ja.vuejs.org/" target="_blank">Vue.js</a> + 
+          第二に、当サイトは<a href="https://ja.vuejs.org/" target="_blank">Vue.js</a> + 
           <a href="https://quasar.dev/" target="_blank">Quasar</a>でコードを記述し、
           ローカル環境にて<a href="https://ja.vitejs.dev/" target="_blank">vite</a>を用いてビルド・デプロイしたプロジェクトを、
-          <a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages" target="_blank">GitHub Pages</a>を用いてオンライン上でホスティングしている。<br>
-          すなわち、オープンソースが明記されているツールのみに依存しており、
-          当サイトを構成するコードも<a href="https://github.com/hasoseso-Gunnar/gunnar-hp/" target="_blank">GitHub上のレポジトリ</a>で公開している。<br>
+          <a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages" target="_blank">GitHub Pages</a>を用いてオンライン上でホスティングしている。
+          一部、バックエンドの代わりにGoogle Apps Scriptを用いて、スプレッドシートをデータベースとして使用している部分もある。<br>
+          すなわち、オープンソース・個人での無料利用が明記されているツールのみに依存しており、
+          当サイトのコードは<a href="https://github.com/hasoseso-Gunnar/gunnar-hp/" target="_blank">GitHub</a>で公開している。<br>
           <br>
-          加えて、当サイトは閲覧者の一切の個人情報を取得せず、これを取り扱うことはない。<br>
+          第三に、当サイトは閲覧者の一切の個人情報を取得せず、これを取り扱うことはない。<br>
           しかしながら、コメント機能等を通して閲覧者自身が記録した個人情報については、これに該当しない。<br>
           上述のように個人情報を含むコメント・いわゆる「荒らし」コメント・あるいはその他私が不適切と判断したコメントについては逐一削除するが、
           手動で削除する都合上、削除までの時間だけ当サイト上に表示されてしまうことについてはご理解頂きたい。<br>
           <br>
-          最後に当サイトは様々な他サイトからテキストや画像を引用することがある。<br>
-          前述のように、このサイトは営利目的ではない。また、極力出典元はサイト内に記載することを心掛けている<br>
-          しかしながら、何らかの理由でテキストや画像に関して削除の申し立てがある場合には、
+          第四に、当サイトは様々な他サイトからテキストや画像を引用することがある。<br>
+          前述のように、このサイトは営利目的ではない。また、極力出典元はサイト内に記載することを心掛けているが
+          何らかの理由でテキストや画像に関して削除の申し立てがある場合には、
           <a href="https://forms.gle/2fFLgAaUwyGasTHn9" target="_blank">こちら</a>から連絡先を記載した上で、問い合わせて頂きたい。<br>
         </p>
     </div>
