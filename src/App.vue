@@ -21,7 +21,7 @@
                 <img src="./assets/my_icon.jpg">
                 </q-avatar>
     
-                <q-toolbar-title class="title_for_phone">A Man by the Name of Gunnar</q-toolbar-title>
+                <q-toolbar-title class="title_for_phone">A Man by the Name of Gnuuar</q-toolbar-title>
             </q-toolbar>
             </q-header>
 
