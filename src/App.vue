@@ -6,8 +6,9 @@
       <q-dialog v-model="dialog" :position="position">
         <q-card style="width: 250px; height: 100%;">
           <q-card-section class="items-start no-wrap">
-            <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./"><q-icon name="house"></q-icon>  HOME</q-btn>
-            <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./thoughts"><q-icon name="menu_book"></q-icon>  THOUGHTS</q-btn>
+            <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./"><q-icon name="house"></q-icon>　HOME</q-btn>
+            <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./thoughts"><q-icon name="menu_book"></q-icon>　THOUGHTS</q-btn>
+            <!-- <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./requests"><q-icon name="email"></q-icon>　REQUESTS</q-btn> -->
           </q-card-section>
         </q-card>
       </q-dialog>
