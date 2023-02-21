@@ -26,7 +26,7 @@
       </q-card-actions>
     </q-card>
     <div>
-      <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold; margin-top: 40px;">REQUESTS</div>
+      <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold; margin-top: 40px;">CONTACTS</div>
     </div>
     <div>
         <p style="font-size: 1.3rem; line-height: 180%;" align="middle">
