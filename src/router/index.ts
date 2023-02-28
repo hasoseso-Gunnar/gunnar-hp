@@ -1,8 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+
+//Thoughts
 import Thoughts from '../views/Thoughts.vue'
 import ThisSite from '../views/ThisSite.vue'
 import PsychEssentialism from '../views/PsychEssentialism.vue'
+import AmericaFirstDay from '../views/AmericaFirstDay.vue'
+
+//Requests
 import Requests from '../views/Requests.vue'
 import MethodOfLove from '../views/MethodOfLove.vue'
 
@@ -14,6 +19,8 @@ const router = createRouter({
       name: 'home',
       component: Home
     },
+
+    //Thoughts
     {
       path: '/thoughts',
       name: 'thoughts',
@@ -29,6 +36,13 @@ const router = createRouter({
       name: 'psychessentialism',
       component: PsychEssentialism
     },
+    {
+      path: '/americafirstday',
+      name: 'americafirstday',
+      component: AmericaFirstDay
+    },
+    
+    //Requests
     {
       path: '/requests',
       name: 'requests',
