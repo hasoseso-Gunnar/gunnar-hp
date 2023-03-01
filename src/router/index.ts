@@ -6,6 +6,7 @@ import Thoughts from '../views/Thoughts.vue'
 import ThisSite from '../views/ThisSite.vue'
 import PsychEssentialism from '../views/PsychEssentialism.vue'
 import AmericaFirstDay from '../views/AmericaFirstDay.vue'
+import AmericaSecondDay from '../views/AmericaSecondDay.vue'
 
 //Requests
 import Requests from '../views/Requests.vue'
@@ -41,7 +42,12 @@ const router = createRouter({
       name: 'americafirstday',
       component: AmericaFirstDay
     },
-    
+    {
+      path: '/americasecondday',
+      name: 'americasecondday',
+      component: AmericaSecondDay
+    },
+
     //Requests
     {
       path: '/requests',
