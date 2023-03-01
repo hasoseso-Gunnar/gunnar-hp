@@ -3,17 +3,17 @@
   <div>
     <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold;">THOUGHTS</div>
   </div>
-  <!-- <q-card class="my-card">
-    <q-img src="../assets/picturesForBlogs/atlanta.jpg" style="height: 250px; width:100%;">
+  <q-card class="my-card">
+    <q-img src="../assets/picturesForBlogs/spsp.jpg" style="height: 250px; width:100%;">
       <div class="absolute-bottom text-right">
-        <div class="text-h6">アメリカ渡航体験記 2~4日目</div>
+        <div class="text-h6">アメリカ渡航体験記 2~5日目</div>
         <div class="text-subtitle2">2023/03/01 更新</div>
       </div>
     </q-img>
     <q-card-actions align="right">
-      <q-btn flat class="text-subtitle1 text-blue-6 fit" to="americafirstday">続きを読む</q-btn>
+      <q-btn flat class="text-subtitle1 text-blue-6 fit" to="americasecondday">続きを読む</q-btn>
     </q-card-actions>
-  </q-card> -->
+  </q-card>
 
   <q-card class="my-card">
     <q-img src="../assets/picturesForBlogs/atlanta.jpg" style="height: 250px; width:100%;">
