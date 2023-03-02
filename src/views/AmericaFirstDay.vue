@@ -1,7 +1,7 @@
 <template>
     <div class="q-pa-md items-start q-gutter-md">
         <div>
-            <div class="text-left text-h4" style="font-weight: bold;">アメリカ渡航 1日目</div>
+            <div class="text-left text-h4" style="font-weight: bold;">アメリカ渡航体験記 1日目</div>
             <div class="text-subtitle2">2023/02/28 更新</div>
         </div>
         <q-img src="../assets/picturesForBlogs/atlanta.jpg" class="yokonaga_img"></q-img>
