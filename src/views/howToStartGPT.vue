@@ -218,13 +218,6 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">参考文献</div>
-        <div class="reference">
-            <li style="margin-left: 3%;">https://auto-worker.com/blog/?p=6988</li>
-            <li style="margin-left: 3%;">https://auto-worker.com/blog/?p=3565</li>
-            <li style="margin-left: 3%;">https://atmarkit.itmedia.co.jp/ait/articles/2303/24/news029.html</li>
-            <li style="margin-left: 3%;">https://www.tiger-inc.co.jp/temawashi/temawashi4.html</li>
-        </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
