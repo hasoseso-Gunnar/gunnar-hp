@@ -4,6 +4,18 @@
     <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold;">THOUGHTS</div>
   </div>
   <q-card class="my-card">
+    <q-img src="../assets/picturesForBlogs/openai.jpg" style="height: 250px; width:100%;">
+      <div class="absolute-bottom text-right">
+        <div class="text-h6">今日から君も！ GPT入門</div>
+        <div class="text-subtitle2">2023/04/09 更新</div>
+      </div>
+    </q-img>
+    <q-card-actions align="right">
+      <q-btn flat class="text-subtitle1 text-blue-6 fit" to="howToStartGPT">続きを読む</q-btn>
+    </q-card-actions>
+  </q-card>
+
+  <q-card class="my-card">
     <q-img src="../assets/picturesForBlogs/america_bookstore.jpg" style="height: 250px; width:100%;">
       <div class="absolute-bottom text-right">
         <div class="text-h6">アメリカ渡航体験記 私から見たアメリカ</div>
