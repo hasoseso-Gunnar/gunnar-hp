@@ -8,6 +8,7 @@
           <q-card-section class="items-start no-wrap">
             <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./"><q-icon name="house"></q-icon>　HOME</q-btn>
             <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./thoughts"><q-icon name="menu_book"></q-icon>　THOUGHTS</q-btn>
+            <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./studies"><q-icon name="science"></q-icon>　STUDIES</q-btn>
             <!-- <q-btn class="text-weight-bold text-h6 q-mb-sm" flat to="./requests"><q-icon name="email"></q-icon>　REQUESTS</q-btn> -->
           </q-card-section>
         </q-card>

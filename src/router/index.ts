@@ -8,7 +8,12 @@ import PsychEssentialism from '../views/PsychEssentialism.vue'
 import AmericaFirstDay from '../views/AmericaFirstDay.vue'
 import AmericaSecondDay from '../views/AmericaSecondDay.vue'
 import AmericaThoughts from '../views/AmericaThoughts.vue'
+
+
+//STUDIES
+import Studies from '../views/Studies.vue'
 import howToStartGPT from '../views/howToStartGPT.vue'
+import GPTAdvanced from '../views/GPTAdvanced.vue'
 
 //Requests
 import Requests from '../views/Requests.vue'
@@ -54,10 +59,22 @@ const router = createRouter({
       name: 'americathoughts',
       component: AmericaThoughts
     },
+
+    //Studies
+    {
+      path: '/studies',
+      name: 'studies',
+      component: Studies
+    },
     {
       path: '/howToStartGPT',
       name: 'howToStartGPT',
       component: howToStartGPT
+    },
+    {
+      path: '/gptadvanced',
+      name: 'gptadvanced',
+      component: GPTAdvanced
     },
 
     //Requests
