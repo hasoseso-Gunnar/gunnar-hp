@@ -2,7 +2,7 @@
     <div class="q-pa-md items-start q-gutter-md">
         <div>
             <div class="text-left text-h4" style="font-weight: bold;">今日から君も！ GPT入門</div>
-            <div class="text-subtitle2">2023/04/09 更新</div>
+            <div class="text-subtitle2">2023/04/10 更新</div>
         </div>
         <q-img src="../assets/picturesForBlogs/openai.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">約1か月前にGPT-4を発表したOpenAI...。果たしてAIバブルはいつまで続くのか？</div>
@@ -32,17 +32,6 @@
                 そのため、とりあえず最初に実際に出来上がったものを以下に載せるので、実際に触ってみて楽しんでみてほしい。<br>
                 <br>
                 それでは、早速やっていこう。
-            </p>
-        </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">使用方法 / 注意事項</div>
-        <div>
-            <p style="font-size: 1rem; line-height: 180%;">
-                ・「メッセージ」欄に文字を入力し、「送信」ボタンを押すことでテキストが送信される。<br>
-                ・無料版のAPIなので、返信はかなり遅い。読み込みが長いのはバグではないので気長に待つべし。<br>
-                ・サイトの仕様上、ページを更新すると会話はリセットされるので注意。<br>
-                ・一度に送信する文字数が多いと、エラーが返ってくるので、送る内容は1000文字以内が望ましい。<br>
-                ・何か不具合が発生した場合は、トップページの「改善案・技術的アドバイス」より不具合の内容を教えてほしい。<br>
-                <br>
             </p>
         </div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">今回実際に作成したbot君</div>
@@ -88,6 +77,17 @@
                 </q-input>
             </div>
         </q-card>
+        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">使用方法 / 注意事項</div>
+        <div>
+            <p style="font-size: 1rem; line-height: 180%;">
+                ・「メッセージ」欄に文字を入力し、「送信」ボタンを押すことでテキストが送信される。<br>
+                ・無料版のAPIなので、返信はかなり遅い。読み込みが長いのはバグではないので気長に待つべし。<br>
+                ・サイトの仕様上、ページを更新すると会話はリセットされるので注意。<br>
+                ・一度に送信する文字数が多いと、エラーが返ってくるので、送る内容は1000文字以内が望ましい。<br>
+                ・何か不具合が発生した場合は、トップページの「改善案・技術的アドバイス」より不具合の内容を教えてほしい。<br>
+                <br>
+            </p>
+        </div>
         <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">フロントエンド</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
