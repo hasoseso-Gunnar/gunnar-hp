@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/motedochecker.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">今回作成したモテ度チェッカーのweb版の結果画面。精度はともかくコンセプトはよい感じがする。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">自分のモテ度を知りたい！</div>
+        <div class="text-left text-h5 article_headline">自分のモテ度を知りたい！</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 我々は常に他人からの評価を気にしながら、生きている。<br>
@@ -29,7 +29,7 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">モテ度チェッカー(α版)</div>
+        <div class="text-left text-h5 article_headline">モテ度チェッカー(α版)</div>
         <div class="q-gutter-y-md column" style="max-width: 800px">
             <q-select 
                 clearable 
@@ -105,7 +105,7 @@
                 <p> {{ advice }}</p>
             </q-card>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 100px;">使用方法 / 注意事項</div>
+        <div class="text-left text-h5 article_headline" style="margin-top: 100px;">使用方法 / 注意事項</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ・各項目に情報を入力し、「測定開始！」ボタンを押すことでAIの計算が始まる。<br>
@@ -120,7 +120,7 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">作り方(フロントエンド)</div>
+        <div class="text-left text-h5 article_headline">作り方(フロントエンド)</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 さて、十分に楽しんでくれただだろうか？<br>
@@ -152,7 +152,7 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">作り方(バックエンド)</div>
+        <div class="text-left text-h5 article_headline">作り方(バックエンド)</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 今回大きく変更したのはバックエンドだ。<br>
@@ -183,7 +183,7 @@
   };</code></pre>
             <p style="font-size: 1rem; line-height: 180%;">
                 見づらくて申し訳ないが、これが今回の「モテ度チェッカー」の核心となる部分である。<br>
-                ${character}は、フロントから指示のあったキャラクターの
+                ${character}は、フロントから指示のあったキャラクターの名前が入る変数だ。<br>
                 <br>
                 前回の応用で、「結婚相談所の職員」というキャラ付けを行わせながら出力の形式を指定することで、
                 <strong>精度の高い結果を、処理しやすい形で</strong>出力させることに成功している。<br>
@@ -204,7 +204,7 @@
                 諸君らも是非、実際に試してみて欲しい。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">まとめ</div>
+        <div class="text-left text-h5 article_headline">まとめ</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 今回の要点としては、system権限の使い方次第でChatGPTでも色々なことができるよ、ということだ。<br>
@@ -241,7 +241,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -581,5 +581,15 @@
         font-family: Consolas, Menlo, Monaco, -apple-system, BlinkMacSystemFont, "Segoe UI", Meiryo, monospace;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
+    }
+
+    .article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
     }
 </style>

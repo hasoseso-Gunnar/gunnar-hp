@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/spsp.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">3日目に参加したシンポジウムの様子。500人以上が参加する大規模なものであった。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">さあアメリカ</div>
+        <div class="text-left text-h5 article_headline">さあアメリカ</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ご存じの諸君もいるかと思うが、私は<a href="https://spsp.org/" target="_blank">SPSP(Society for Personality and Social Psychology)</a>の年次学会に参加するために2023年2月22日〜27日の間にアメリカに出張することになった。<br>
@@ -27,7 +27,7 @@
                 それでは、早速語っていこう。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">2~4日目</div>
+        <div class="text-left text-h5 article_headline">2~4日目</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 いきなりだが、3日間まとめて語ってしまおう。アメリカ渡航2~4日目はまさに学会に参加していた期間であるので、
@@ -105,7 +105,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/atlanta_carpark.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">アトランタ国際空港内から外を撮った写真。空港に来てもなぜか飛行機を撮らずに、駐車場を撮影しているバカな私に何か言ってやってほしい。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">5日目</div>
+        <div class="text-left text-h5 article_headline">5日目</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 04:00　アラームで目が覚める。自分で設定したアラームに対して悪態をつく。<br>
@@ -214,7 +214,7 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">あわせて読みたい</div>
+        <div class="text-left text-h5 article_headline">あわせて読みたい</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 <a href="https://twitter.com/superhyperhelix/status/1523425676648325120?s=12&t=Mu4W32uAI44xCZSIx08wtg" target="_blank">常識では考えられないコード進行　大地讃頌</a>
@@ -222,7 +222,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -469,5 +469,14 @@ import { ref, onMounted } from "vue";
             width: 90%;
             margin-left: 5%;
         }
+    }
+    .article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
     }
 </style>

@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/america_bookstore.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">空港の本屋で撮った写真。雑誌の表紙やバラエティーの多さがアメリカンな感じがする。(適当)</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">ことわり</div>
+        <div class="text-left text-h5 article_headline">ことわり</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 <a href="../views/AmericaFirstDay.vue">前々回</a>と<a href="../views/AmericaFirstDay.vue">前回</a>の記事を読んでくれた諸君、ありがとう。<br>
@@ -26,7 +26,7 @@
                 それでは、早速語っていこう。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">人種と分断と治安</div>
+        <div class="text-left text-h5 article_headline">人種と分断と治安</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 「アメリカ」という国を語る上で、決して外せないテーマはこれに違いない。<br>
@@ -79,7 +79,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/expensivebreakfast.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">私が3日目の朝食べたサンドウィッチ。アイスティーとこの崩れたサンドウィッチで$11(約1500円)くらいした。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">食文化と物価とチップ</div>
+        <div class="text-left text-h5 article_headline">食文化と物価とチップ</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 食文化については、心配することはない。日本人でもすぐに慣れるだろう。
@@ -114,7 +114,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/atlanta_dinner.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">2日目の夜に行ったレストランで食べたサラダ。サラダだが、桃などのフルーツが入っている。<br>なぜかアメリカ人はサラダにフルーツを入れたがるようだ。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">「優しい」文化</div>
+        <div class="text-left text-h5 article_headline">「優しい」文化</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ここまで、ややネガティブな話が多かったが、ここではアメリカのよかったことを述べていきたいと思う。
@@ -141,7 +141,7 @@
                 なかなか貴重な体験だったと言えよう。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">その他</div>
+        <div class="text-left text-h5 article_headline">その他</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ここでは、ここまでの3節のどれにも当てはまらないが、諸君らが気になるであろうこと、あるいはアメリカに渡航する前に知っておくべきことを列挙していく。<br>
@@ -180,7 +180,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/atlanta_randomguy.jpg" class="tatenaga_img"></q-img>
         <div class="text-subtitle2 text-right">空港の謎壁画の謎おじさんとの謎ショット。<br>彼がどういった人物なのか、調べてもよく分からなかった。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">旅のおわりに</div>
+        <div class="text-left text-h5 article_headline">旅のおわりに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ここまで読んでくれた諸君、ありがとう。これで、アメリカについて私が語りたいことは概ね語り尽くしたと思う。<br>
@@ -202,7 +202,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -449,5 +449,14 @@ import { ref, onMounted } from "vue";
             width: 90%;
             margin-left: 5%;
         }
+    }
+    .article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
     }
 </style>

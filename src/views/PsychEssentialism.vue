@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/weekly-jump.jpg" class="insert_img"></q-img>
         <div class="text-subtitle2 text-right">「週刊少年ジャンプ」と検索して最初に出てきた画像。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">「週刊少年ジャンプ」とは</div>
+        <div class="text-left text-h5 article_headline">「週刊少年ジャンプ」とは</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 よくある下らないアフィリエイトサイトのように、「週刊少年ジャンプ」についてバカ丁寧に説明してもいいのだが、
@@ -17,7 +17,7 @@
                 昔はこのいずれかのテーマを含んだ作品であることが編集の方針だったらしい。これは後々また触れるので簡潔に記しておく。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">心理的本質主義とは</div>
+        <div class="text-left text-h5 article_headline">心理的本質主義とは</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 さて、諸君らが気になるのは、こちらについてだろう。私が心理学を専攻していることを知っている人は多いかもしれないが、
@@ -51,7 +51,7 @@
                 なんにせよ、用語自体は小難しいが、概念自体は理解しやすいものではないだろうか。<br>
                 <br>
             </p>  
-            <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">「友情・努力・勝利」</div>
+            <div class="text-left text-h5 article_headline">「友情・努力・勝利」</div>
             <div>
                 <p style="font-size: 1rem; line-height: 180%;">
                     <br>
@@ -87,7 +87,7 @@
         <div class="text-subtitle2 text-right">
             どちらの漫画も、主人公がライバル(友)を追いかける形で物語が進行する。
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">1980年代の「血統」</div>
+        <div class="text-left text-h5 article_headline">1980年代の「血統」</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 <br>
@@ -125,7 +125,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/jump_goldenage.jpg" class="insert_img"></q-img>
         <div class="text-subtitle2 text-right">黄金期と呼ばれるころの週刊少年ジャンプ。この頃はよかったナア。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">2000年代の「偶然」</div>
+        <div class="text-left text-h5 article_headline">2000年代の「偶然」</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 <br>
@@ -173,7 +173,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/2020-jump.jpg" class="insert_img"></q-img>
         <div class="text-subtitle2 text-right">最近のジャンプ。PCから見ている人は画像がガビガビだと思うが調整が面倒くさいので許してほしい。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">ないものがほしい</div>
+        <div class="text-left text-h5 article_headline">ないものがほしい</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 <br>
@@ -211,7 +211,7 @@
             </p>
             <q-img src="../assets/picturesForBlogs/90s_anime.jpg" class="insert_img"></q-img>
             <div class="text-subtitle2 text-right">最近は80年代を懐古するような風潮さえある。</div>
-            <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">あとがき</div>
+            <div class="text-left text-h5 article_headline">あとがき</div>
             <div>
                 <p style="font-size: 1rem; line-height: 180%;">
                     <br>
@@ -232,7 +232,7 @@
                 </p>
             </div>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">お借りした画像の出典元</div>
+        <div class="text-left text-h5 article_headline">お借りした画像の出典元</div>
         <div class="text-subtitle2 text-left">一部URLは表示の関係で省略</div>
         <div class="reference">
             <li style="margin-left: 3%;">https://www.shonenjump.com/j/</li>
@@ -244,7 +244,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -471,6 +471,14 @@ strong{
         max-width: 300px; 
     }   
 }
-
+.article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
+    }
 
 </style>

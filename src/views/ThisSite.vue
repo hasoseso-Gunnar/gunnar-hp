@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/my_icon.jpg" class="insert_img"></q-img>
         <div class="text-subtitle2 text-right">これは、私が高校2年生のときに、渋谷にて太陽と「一蓮托生の儀」を行った際の貴重な画像だ。(東京国立博物館収蔵)</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">はじめに</div>
+        <div class="text-left text-h5 article_headline">はじめに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 このサイトを作成したのはポートフォリオ的なものを作りたかったというのが50%、残りの50%は暇つぶしだ。<br>
@@ -15,7 +15,7 @@
                 こうやって海外渡航を直前に控えて忙しいはずのときに、深夜遅くまでつまらない趣味にふけってしまうものだ。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">つぎに</div>
+        <div class="text-left text-h5 article_headline">つぎに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 では、これを読んでいる諸君は、私の暇つぶしに付き合っている憐れな被害者なのかと言うと、これは少し私の意図するところとは違う。<br>
@@ -34,7 +34,7 @@
                 リクエストについては、頂いたものは一つ一つ私が目を通し、面白いものがあれば取り上げて本サイトに記事として投稿する。<br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">そのつぎに</div>
+        <div class="text-left text-h5 article_headline">そのつぎに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 そもそも、このサイトはWordPressなどのHP作成ツール、はてなブログやLivedoor、
@@ -55,7 +55,7 @@
                 また、もし諸君らの中にVue.jsを用いたフルスタックの開発経験のある者がいれば、先述のフォームから是非アドバイスを欲しい。<br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">おわりに</div>
+        <div class="text-left text-h5 article_headline">おわりに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 以上のことを踏まえ、当サイトがどのようなものであるかは、諸君にもご理解頂けただろう。<br>
@@ -77,7 +77,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">

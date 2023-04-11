@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/openai.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">約1か月前にGPT-4を発表したOpenAI...。果たしてAIバブルはいつまで続くのか？</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">熱狂</div>
+        <div class="text-left text-h5 article_headline">熱狂</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 最近、ネット上の話題はChatGPTで持ちきりである。まさに「熱狂」...。ネット上では熱がこもって皆が狂っている状況といっても過言ではない。<br>
@@ -34,7 +34,7 @@
                 それでは、早速やっていこう。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">今回実際に作成したbot君</div>
+        <div class="text-left text-h5 article_headline">今回実際に作成したbot君</div>
         <q-card class="q-pb-lg">
             <div class="q-pa-md row justify-center">
                 <div style="width: 80%;">
@@ -77,7 +77,7 @@
                 </q-input>
             </div>
         </q-card>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">使用方法 / 注意事項</div>
+        <div class="text-left text-h5 article_headline">使用方法 / 注意事項</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ・「メッセージ」欄に文字を入力し、「送信」ボタンを押すことでテキストが送信される。<br>
@@ -88,7 +88,7 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">フロントエンド</div>
+        <div class="text-left text-h5 article_headline">フロントエンド</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 さて、いかがだっただろうか。<br>
@@ -117,7 +117,7 @@
                 <br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">バックエンド</div>
+        <div class="text-left text-h5 article_headline">バックエンド</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 さて、こちらが簡易的に用意したバックエンド(GAS)のコードである。<br>
@@ -166,7 +166,7 @@
                 是非とも諸君らには創意工夫を凝らして、実際に活用してほしい。<br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">おわりに</div>
+        <div class="text-left text-h5 article_headline">おわりに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 今回は、あの<strong>「ChatGPT」</strong>を<strong>超簡単</strong>に<strong>完全無料</strong>で実装する方法を紹介した。<br>
@@ -220,7 +220,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -530,5 +530,14 @@
         font-family: Consolas, Menlo, Monaco, -apple-system, BlinkMacSystemFont, "Segoe UI", Meiryo, monospace;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
+    }
+    .article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
     }
 </style>

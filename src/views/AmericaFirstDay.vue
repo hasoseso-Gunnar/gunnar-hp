@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/atlanta.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">これは、私の泊まったホテルの部屋からのアトランタ市街の風景だ。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">いざアメリカ</div>
+        <div class="text-left text-h5 article_headline">いざアメリカ</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 ご存じの諸君もいるかと思うが、私は<a href="https://spsp.org/" target="_blank">SPSP(Society for Personality and Social Psychology)</a>の年次学会に参加するために2023年2月22日〜27日の間にアメリカに出張することになった。<br>
@@ -20,7 +20,7 @@
                 それでは、早速語っていこう。
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">事前準備編</div>
+        <div class="text-left text-h5 article_headline">事前準備編</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 アメリカ渡航に際して、アメリカへの入国は「ESTA」の申請が不可欠である。
@@ -49,7 +49,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/haneda.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">これは、出発する前の羽田空港の写真だ。割とガラガラ。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">羽田空港〜飛行機内編</div>
+        <div class="text-left text-h5 article_headline">羽田空港〜飛行機内編</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 あまり海外旅行に馴染みがない諸君らにもフライトの仕組みを説明しておくと、
@@ -107,7 +107,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/atlanta_airport.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">アトランタ国際空港内の写真。空港のホームページには「世界一忙しい空港」などと大層なことが書かれているが、実際はこじんまりとしていた。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">アメリカ到着直後編</div>
+        <div class="text-left text-h5 article_headline">アメリカ到着直後編</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 アメリカ(アトランタ)に到着してからは、入国審査がとにかくキツかった。
@@ -148,7 +148,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/hilton_atlanta.jpg" class="yokonaga_img"></q-img>
         <div class="text-subtitle2 text-right">私が泊まったホテルの内装。一応荷物が物色された時に備えて、毎朝立ち去る前に部屋の写真を取っておいた。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">ホテル～就寝編</div>
+        <div class="text-left text-h5 article_headline">ホテル～就寝編</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 その後無事ホテルに到着した...が、ホテルのことに関してはあまり語りたくない。正直、高い金を払った割には不満点が非常に多かった。<br>
@@ -171,7 +171,7 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -418,5 +418,14 @@ import { ref, onMounted } from "vue";
             width: 90%;
             margin-left: 5%;
         }
+    }
+    .article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
     }
 </style>
