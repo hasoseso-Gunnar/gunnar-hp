@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md items-start q-gutter-md">
   <div>
-    <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold;">THOUGHTS</div>
+    <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold;">STUDIES</div>
   </div>
   <q-card class="my-card">
     <q-img src="../assets/picturesForBlogs/motedochecker.jpg" style="height: 250px; width:100%;">

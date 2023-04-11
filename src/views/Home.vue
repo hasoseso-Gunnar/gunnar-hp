@@ -5,8 +5,9 @@
     </div>
     <div>
         <p style="font-size: 1rem; line-height: 180%;">
+          <br>
             当サイトはVue.jsに慣れるための練習と、何か形に残るものを作りたかったという私の自己満足のためのサイトである。<br>
-            そのため、諸君らの中に何かを学びたいだとか、現代社会に一石を投じるコラムを見たいだとか、そういった高尚な目的を持っているのであれば
+            そのため、現代社会に一石を投じるコラムを見たいだとか、そういった高尚な目的を持っているのであれば
             残念ながらその期待には応えられない。<br>
             あくまで当サイトは、中途半端な知識を面白おかしくひけらかす私に対して非常にメタ的でシニカルな笑いを楽しむ、
             そういった厨二病的で悪趣味な場所なのだ。<br>
@@ -26,7 +27,18 @@
       </q-card-actions>
     </q-card>
     <div>
-      <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold; margin-top: 40px;">CONTACTS</div>
+      <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold; margin-top: 40px;">HOT FIXES</div>
+    </div>
+    <div>
+        <p style="font-size: 1.2rem; line-height: 180%; text-align: center;">
+          <br>
+            ・Googleの検索結果に表示されるよう修正　(2023/04/11)<br>
+            ・「STUDIES」カテゴリを追加　(2023/04/11)<br>
+            <br>
+        </p>
+    </div>
+    <div>
+      <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold;">CONTACTS</div>
     </div>
     <div>
         <p style="font-size: 1.3rem; line-height: 180%;" align="middle">
@@ -47,7 +59,7 @@
           <br>
           第二に、当サイトは<a href="https://ja.vuejs.org/" target="_blank">Vue.js</a> + 
           <a href="https://quasar.dev/" target="_blank">Quasar</a>でコードを記述し、
-          ローカル環境にて<a href="https://ja.vitejs.dev/" target="_blank">vite</a>を用いてビルド・デプロイしたプロジェクトを、
+          ローカル環境にて<a href="https://ja.vitejs.dev/" target="_blank">Vite</a>を用いてビルド・デプロイしたプロジェクトを、
           <a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages" target="_blank">GitHub Pages</a>を用いてオンライン上でホスティングしている。
           一部、バックエンドの代わりにGoogle Apps Scriptを用いて、スプレッドシートをデータベースとして使用している部分もある。<br>
           すなわち、オープンソース・個人での無料利用が明記されているツールのみに依存しており、

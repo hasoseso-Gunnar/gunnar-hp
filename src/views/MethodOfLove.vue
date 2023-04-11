@@ -6,7 +6,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/me_with_3p.jpg" class="tatenaga_img"></q-img>
         <div class="text-subtitle2 text-right">これは、私が清廉潔白・品行方正かつ優等生だった高校時代の写真だ。(個人所蔵)</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">はじめに</div>
+        <div class="text-left text-h5 article_headline">はじめに</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 当サイトでは、<a href="https://forms.gle/JeF3vNd6t8aNchKX8" target="_blank">こちら</a>のフォームより私に語って欲しいことを
@@ -54,7 +54,7 @@
                 それでは、以上のことを踏まえて論じていこう。<br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">Attemption Is All You Need</div>
+        <div class="text-left text-h5 article_headline">Attemption Is All You Need</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 知っている人も多いかもしれないが、私は恋愛に関してはダメダメで、失敗だらけの人生である。
@@ -93,7 +93,7 @@
         </div>
         <q-img src="../assets/picturesForBlogs/attention_is_all_you_need.png" class="insert_img"></q-img>
         <div class="text-subtitle2 text-right">本節のタイトル「Attemption Is All You Need」は自然言語処理に関するGoogleの超有名論文のタイトルをパロっているのだ。</div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">持つ者と持たざる者</div>
+        <div class="text-left text-h5 article_headline">持つ者と持たざる者</div>
         <div>
             <p style="font-size: 1rem; line-height: 180%;">
                 前節において、私があることを巧妙に伏せて論じていたことに気付いた者もいるかもしれない。<br>
@@ -116,7 +116,7 @@
                 それでは、次節にて一般的な「男性からモテる女性」について論じていこう。<br>
             </p>
         </div>
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">モテる男性とは</div>
+        <div class="text-left text-h5 article_headline">モテる男性とは</div>
             <p style="font-size: 1rem; line-height: 180%;">
 
             </p>
@@ -124,14 +124,14 @@
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">お借りした画像の出典元</div>
+        <div class="text-left text-h5 article_headline">お借りした画像の出典元</div>
         <div class="text-subtitle2 text-left">一部URLは表示の関係で省略</div>
         <div class="reference">
             <li style="margin-left: 3%;">https://towardsdatascience.com/</li>
         </div>
     </div>
     <div class="q-pa-md items-start q-gutter-md">
-        <div class="text-left text-h5" style="font-weight: bold; margin-top: 30px;">COMMENTS</div>
+        <div class="text-left text-h5 article_headline">COMMENTS</div>
     </div>
     <div v-if="comments?.length === 0" style="font-size: 18px; margin-left: 20px;">コメントなし</div>
     <div v-for="comment in comments" :key="comment" class="comment_section">
@@ -368,5 +368,14 @@ import { ref, onMounted } from "vue";
             width: 90%;
             margin-left: 5%;
         }
+    }
+    .article_headline{
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 0.4em 0.5em;
+        color: #494949;
+        background: #f4f4f4;
+        border-left: solid 5px #9c27b0;
+        border-bottom: solid 3px #d7d7d7;
     }
 </style>
