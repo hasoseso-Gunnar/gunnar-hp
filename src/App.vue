@@ -44,6 +44,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import { ref } from 'vue'
+import { useQuasar } from 'quasar'
+
+const $q = useQuasar();
+$q.dark.set(false);
+
+console.log($q.dark.isActive)
 
 const dialog = ref<boolean>(false)
 const position = ref<any>('left')

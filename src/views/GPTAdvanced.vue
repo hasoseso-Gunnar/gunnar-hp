@@ -592,4 +592,7 @@
         border-left: solid 5px #9c27b0;
         border-bottom: solid 3px #d7d7d7;
     }
+    body.body--dark {
+        background: white
+    }
 </style>
