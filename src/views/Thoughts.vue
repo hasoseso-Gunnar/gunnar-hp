@@ -3,6 +3,19 @@
   <div>
     <div class="text-center text-h4" style="text-decoration:underline; font-weight: bold;">THOUGHTS</div>
   </div>
+
+  <q-card class="my-card">
+    <q-img src="../assets/picturesForBlogs/bowie_albums.jpg" style="height: 250px; width:100%;">
+      <div class="absolute-bottom text-right">
+        <div class="text-h6">必聴！知られざる名盤たち</div>
+        <div class="text-subtitle2">2023/04/16 更新</div>
+      </div>
+    </q-img>
+    <q-card-actions align="right">
+      <q-btn flat class="text-subtitle1 text-blue-6 fit" to="mybestalbums">続きを読む</q-btn>
+    </q-card-actions>
+  </q-card>
+
   <q-card class="my-card">
     <q-img src="../assets/picturesForBlogs/america_bookstore.jpg" style="height: 250px; width:100%;">
       <div class="absolute-bottom text-right">

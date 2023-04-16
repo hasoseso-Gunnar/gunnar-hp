@@ -95,7 +95,7 @@
                 @click="sendRequestToGPT"
             />
 
-            <p class="text-center">※結果が出るまでに最長で30～40秒ほど掛かります。気長に待ちましょう。</p>
+            <p class="text-center">※結果が出るまでに最長で60～70秒ほど掛かります。気長に待ちましょう。</p>
             <p class="text-center" style="margin-top: -10px;">※結果は下の画面に表示されます。</p>
             <q-card class="q-pa-md q-mt-xl">
                 <p>あなたのモテ度は...</p>
