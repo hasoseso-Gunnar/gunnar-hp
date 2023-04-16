@@ -1,23 +1,23 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/Home.vue';
 
 //Thoughts
-import Thoughts from '../views/Thoughts.vue'
-import ThisSite from '../views/ThisSite.vue'
-import PsychEssentialism from '../views/PsychEssentialism.vue'
-import AmericaFirstDay from '../views/AmericaFirstDay.vue'
-import AmericaSecondDay from '../views/AmericaSecondDay.vue'
-import AmericaThoughts from '../views/AmericaThoughts.vue'
-
+import Thoughts from '../views/Thoughts.vue';
+import ThisSite from '../views/ThisSite.vue';
+import PsychEssentialism from '../views/PsychEssentialism.vue';
+import AmericaFirstDay from '../views/AmericaFirstDay.vue';
+import AmericaSecondDay from '../views/AmericaSecondDay.vue';
+import AmericaThoughts from '../views/AmericaThoughts.vue';
+import MyBestAlbums from '../views/MyBestAlbums.vue';
 
 //STUDIES
-import Studies from '../views/Studies.vue'
-import howToStartGPT from '../views/howToStartGPT.vue'
-import GPTAdvanced from '../views/GPTAdvanced.vue'
+import Studies from '../views/Studies.vue';
+import howToStartGPT from '../views/howToStartGPT.vue';
+import GPTAdvanced from '../views/GPTAdvanced.vue';
 
 //Requests
-import Requests from '../views/Requests.vue'
-import MethodOfLove from '../views/MethodOfLove.vue'
+import Requests from '../views/Requests.vue';
+import MethodOfLove from '../views/MethodOfLove.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,6 +58,11 @@ const router = createRouter({
       path: '/americathoughts',
       name: 'americathoughts',
       component: AmericaThoughts
+    },
+    {
+      path: '/mybestalbums',
+      name: 'mybestalbums',
+      component: MyBestAlbums
     },
 
     //Studies
